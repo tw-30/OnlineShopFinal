@@ -28,8 +28,8 @@ namespace OnlineShop.Models
                 {
                     ProductID = 1,
                     CategoryID = 1,
-                    Code = "MacAir",
-                    Name = "Macbook Air ",
+                    Code = "MacPro",
+                    Name = "Macbook Pro ",
                     Price = (decimal)999.00
                 },
                 new Product
