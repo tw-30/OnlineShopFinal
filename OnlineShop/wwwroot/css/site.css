@@ -7,20 +7,21 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+  color: #1f2833;
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #45A29E;
+    background-color: #1b6ec2;
+    border-color: #1f2833;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
+  color: #c5c6c7;
+  background-color: #45A29E;
   border-color: #1861ac;
 }
 
@@ -61,7 +62,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  
+
 }
 .footer {
   position: absolute;

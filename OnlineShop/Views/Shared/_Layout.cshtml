@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-info border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Tyler's Tech Shop</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -38,7 +38,7 @@
                     </ul>
                 </div>
                 <div class ="navbar-nav navbar-right">
-                    <a class="nav-link text-dark"
+                    <a class="nav-link text-danger"
                         asp-area="admin" asp-controller="Home" asp-action="Index">Admin</a>
                 </div>
             </div>
@@ -50,7 +50,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted bg-info">
         <div class="container">
             &copy; @DateTime.Now.Year - OnlineShop - <a asp-area="" asp-controller="Home" asp-action="About">About Us</a>
         </div>

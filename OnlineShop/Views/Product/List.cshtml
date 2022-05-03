@@ -15,7 +15,7 @@
             @foreach (Category c in ViewBag.Categories)
             {
                 <a asp-controller="Product" asp-action="List" asp-route-id="@c.Name"
-                   class="list-group-item 
+                   class="list-group-item
                        @(ViewBag.SelectedCategoryName == c.Name ? "active" : "")">
                     @c.Name
                 </a>
